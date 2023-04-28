@@ -1,6 +1,6 @@
-name: 'JSDoc Action'
+name: 'JSDoc Action Patch'
 description: 'GitHub Action to build JSDoc documentation'
-author: 'André Storhaug'
+author: 'zhennann'
 branding:
   icon: 'file-text'  
   color: 'yellow'
@@ -30,5 +30,5 @@ inputs:
     description: 'The path to a Markdown file to be used as a the front page'
     required: false
 runs:
-  using: 'node12'
+  using: 'node16'
   main: 'src/index.js'
