@@ -8,7 +8,7 @@ The following example [workflow step](https://help.github.com/en/actions/configu
 
 ```yml
 - name: Build
-  uses: andstor/jsdoc-action@v1
+  uses: zhennann/jsdoc-action@v1
   with:
     source_dir: ./src
     recurse: true
@@ -74,7 +74,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Build
-        uses: andstor/jsdoc-action@v1
+        uses: zhennann/jsdoc-action@v1
         with:
           source_dir: ./src
           output_dir: ./out
